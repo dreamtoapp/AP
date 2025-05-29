@@ -63,7 +63,7 @@ export default function Header() {
             </div>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
-            www.dreamto.app
+            WWW.DREAMTO.APP
           </h2>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
             خطة تأسيس مكتب تطوير برمجيات
