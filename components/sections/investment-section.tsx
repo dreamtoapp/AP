@@ -1,8 +1,16 @@
-import { HandHeart, CreditCard, PieChart, FileText, Shield, Crown, Handshake } from "lucide-react"
-import SectionHeader from "../section-header"
-import InfoCard from "../info-card"
-import DataTable from "../data-table"
-import { Button } from "@/components/ui/button"
+import {
+  CreditCard,
+  Crown,
+  FileText,
+  HandHeart,
+  Handshake,
+  PieChart,
+  Shield,
+} from 'lucide-react';
+
+import DataTable from '../data-table';
+import InfoCard from '../info-card';
+import SectionHeader from '../section-header';
 
 export default function InvestmentSection() {
   const investmentCards = [
@@ -17,10 +25,14 @@ export default function InvestmentSection() {
           </div>
           <div className="space-y-2">
             <p>
-              <strong>نوع الاستثمار:</strong> مشاركة في رأس المال
+              <strong>نوع الاستثمار:</strong> عقد مضاربة حيث يوفّر الممول رأس المال، ويتولى المضارب إدارة وتنفيذ المشروع، ويتم تقاسم الأرباح حسب الاتفاق بين الطرفين.
+            </p>
+
+            <p>
+              <strong>حصة الطرف الأول المستثمر (الأستاذ محمد الشهري):</strong> حسب الاتفاق بعد الموافقة.
             </p>
             <p>
-              <strong>حصة المستثمر:</strong> 30% من الشركة
+              <strong>حصة الطرف الثاني المضارب (المهندس خالد نديش):</strong> حسب الاتفاق بعد الموافقة.
             </p>
             <p>
               <strong>العائد المتوقع:</strong> 172.8% سنوياً
@@ -29,6 +41,7 @@ export default function InvestmentSection() {
               <strong>فترة الاستثمار:</strong> 3-5 سنوات
             </p>
           </div>
+
         </div>
       ),
     },
@@ -100,7 +113,7 @@ export default function InvestmentSection() {
     ["عقود قانونية محكمة", "عقود استثمار موثقة من وزارة التجارة والاستثمار"],
     ["شفافية مالية كاملة", "وصول مباشر للبيانات المالية والتقارير التشغيلية"],
     ["خيار الخروج المرن", "إمكانية بيع الحصة بعد 3 سنوات بسعر السوق العادل"],
-    ["توزيع أرباح منتظم", "توزيع 50% من الأرباح الصافية كل ربع سنة"],
+    ["توزيع أرباح منتظم", "توزيع  حسب الاتفاق% من الأرباح الصافية كل ربع سنة"],
     ["تأمين شامل", "تأمين على المشروع والأصول ضد جميع المخاطر"],
     ["ضمان الأداء", "التزام بتحقيق 80% من الأهداف المالية كحد أدنى"],
   ]
@@ -148,7 +161,7 @@ export default function InvestmentSection() {
 
       {/* Investment Benefits */}
       <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-6 mb-8 border border-blue-200">
-        <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">مزايا الاستثمار مع فريقنا</h3>
+        <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">مزايا الاستثمار </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="text-center">
             <div className="bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
@@ -158,13 +171,13 @@ export default function InvestmentSection() {
           </div>
           <div className="text-center">
             <div className="bg-green-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">9</span>
+              <span className="text-white font-bold">18</span>
             </div>
             <p className="text-sm font-semibold text-gray-700">أشهر لنقطة التعادل</p>
           </div>
           <div className="text-center">
             <div className="bg-purple-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">30%</span>
+              <span className="text-white font-bold">؟- %</span>
             </div>
             <p className="text-sm font-semibold text-gray-700">حصة في الشركة</p>
           </div>
@@ -179,23 +192,10 @@ export default function InvestmentSection() {
 
       {/* Call to Action */}
       <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-8 text-white">
-        <h3 className="text-2xl font-bold mb-4">نتطلع إلى شراكة ناجحة معكم</h3>
+        <h3 className="text-2xl font-bold mb-4">اتطلع إلى شراكة ناجحة معكم</h3>
         <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-          نحن مستعدون لتقديم أي توضيحات إضافية أو الإجابة على استفساراتكم في أي وقت. فريقنا في خدمتكم لضمان اتخاذ قرار
-          استثماري مدروس ومربح.
+          ان مستعد لتقديم أي توضيحات إضافية أو الإجابة على استفسار  في أي وقت. .
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-white text-blue-700 hover:bg-gray-100 px-8 py-3 rounded-xl font-bold">
-            التواصل للاستثمار
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white text-white hover:bg-white/10 px-8 py-3 rounded-xl font-bold"
-          >
-            طلب معلومات إضافية
-          </Button>
-        </div>
       </div>
     </div>
   )

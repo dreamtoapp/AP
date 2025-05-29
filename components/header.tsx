@@ -30,7 +30,11 @@ export default function Header() {
               <Crown className="w-6 h-6 text-white" />
             </div>
             <div>
-              <p className="text-xs opacity-80 mb-1">الأستاذ الفاضل</p>
+              <p className="text-xs opacity-80 mb-1">
+                الأستاذ الفاضل - (الطرف الأول)
+
+              </p>
+
               <p className="font-bold text-lg">سعد محمد الشهري</p>
               <p className="text-sm opacity-90">(أبو سلطان)</p>
             </div>
@@ -42,7 +46,9 @@ export default function Header() {
               <User className="w-6 h-6 text-white" />
             </div>
             <div>
-              <p className="text-xs opacity-80 mb-1">مقدم الخطة</p>
+              <p className="text-xs opacity-80 mb-1">
+                مقدم الخطة - (الطرف الثاني)
+              </p>
               <p className="font-bold text-lg">المهندس خالد علي نديش</p>
               <p className="text-sm opacity-90">مؤسس ومدير المشروع</p>
             </div>
