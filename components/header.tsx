@@ -62,6 +62,9 @@ export default function Header() {
               <Code className="w-8 h-8 text-blue-700" />
             </div>
           </div>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
+            www.dreamto.app
+          </h2>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
             خطة تأسيس مكتب تطوير برمجيات
           </h1>
@@ -72,6 +75,7 @@ export default function Header() {
             <p className="text-base md:text-lg opacity-90 mt-2">
               توقعات أرباح تصل إلى <span className="font-bold text-yellow-300">20,000,000 ريال</span> بعد 3 سنوات
             </p>
+
           </div>
         </div>
 
