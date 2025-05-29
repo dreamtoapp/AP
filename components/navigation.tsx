@@ -1,12 +1,14 @@
 "use client"
 
 import {
-  AlertCircle,
-  HandHeart,
-  Home,
-  MapPin,
-  Target,
-  TrendingUp,
+  BarChart3,
+  BookOpenText,
+  HandCoins,
+  LayoutDashboard,
+  LineChart,
+  ListTodo,
+  Users,
+  Workflow,
 } from 'lucide-react';
 
 interface NavigationProps {
@@ -16,15 +18,15 @@ interface NavigationProps {
 
 export default function Navigation({ activeTab, onTabChange }: NavigationProps) {
   const tabs = [
-    { id: "overview", label: "نظرة عامة", icon: Home },
-    { id: "financial", label: "الجدوى المالية", icon: TrendingUp },
-    { id: "market", label: "دراسة السوق", icon: Target },
-    { id: "plan", label: "خطة التنفيذ", icon: MapPin },
-    { id: "investment", label: "فرصة الاستثمار", icon: HandHeart },
-    { id: "other", label: "مصطلحات ومفاهيم المشروع", icon: AlertCircle },
-    { id: "JObs", label: "الوصف والمهام الوظيفية", icon: AlertCircle },
-    { id: "Applife", label: "مراحل عمل المشرةع التقني", icon: AlertCircle },
-  ]
+    { id: "overview", label: "نظرة عامة", icon: LayoutDashboard },
+    { id: "financial", label: "الجدوى المالية", icon: LineChart },
+    { id: "market", label: "دراسة السوق", icon: BarChart3 },
+    { id: "plan", label: "خطة التنفيذ", icon: ListTodo },
+    { id: "investment", label: "فرصة الاستثمار", icon: HandCoins },
+    { id: "other", label: "مصطلحات وتعريفات", icon: BookOpenText },
+    { id: "JObs", label: "المهام الوظيفية", icon: Users },
+    { id: "Applife", label: "مراحل التطوير", icon: Workflow },
+  ];
 
   return (
     <div className="bg-white rounded-xl shadow-lg mb-8 overflow-hidden">
@@ -41,7 +43,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
                 }`}
             >
               <Icon className="w-4 h-4" />
-              <span className="hidden sm:inline">{tab.label}</span>
+              <span className="inline text-sm">{tab.label}</span>
             </button>
           )
         })}

@@ -27,7 +27,7 @@ const JobRolesDashboard = () => {
         "تخطيط نطاق المشروع وجدولته الزمنية والميزانية",
         "توزيع المهام وتنسيق جهود الفريق",
         "إدارة المخاطر وحل المشكلات",
-        "التواصل مع أصحاب المصلحة وتقديم التقارير",
+        "التواصل مع أصحاب المصلحة والاداؤات الغليا",
         "ضمان تسليم المشروع بجودة عالية وفي الوقت المحدد"
       ],
       skills: [
@@ -39,7 +39,7 @@ const JobRolesDashboard = () => {
       ],
       deliverables: [
         "خطة المشروع الشاملة",
-        "تقارير التقدم الأسبوعية",
+
         "وثائق تسليم المشروع",
         "تحليل ما بعد التنفيذ",
         "خطط تحسين العمليات"
@@ -362,7 +362,7 @@ const JobRolesDashboard = () => {
                     ))}
                   </ul>
 
-                  <div className="mt-8 bg-gray-50 rounded-xl p-6 border border-gray-200">
+                  {/* <div className="mt-8 bg-gray-50 rounded-xl p-6 border border-gray-200">
                     <h3 className="text-lg font-bold text-gray-800 mb-3">نصائح للنجاح في هذه الوظيفة</h3>
                     <ul className="space-y-2">
                       <li className="flex items-start">
@@ -382,7 +382,7 @@ const JobRolesDashboard = () => {
                         <span className="text-gray-700">تعلم من الأخطاء واعتبر كل تحدٍ فرصة للنمو</span>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -401,10 +401,7 @@ const JobRolesDashboard = () => {
           </div>
         )}
 
-        <footer className="mt-16 text-center text-gray-600">
-          <p>© 2023 فريق التطوير التقني | جميع الحقوق محفوظة</p>
-          <p className="mt-2">تم تصميم هذه اللوحة لمساعدة فرق العمل والمديرين على فهم أدوار ومسؤوليات الفريق التقني</p>
-        </footer>
+
       </div>
     </div>
   );

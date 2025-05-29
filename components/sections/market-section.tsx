@@ -164,7 +164,7 @@ const SaudiSoftwareMarket = () => {
               <p className="text-sm text-slate-600">الشركات الصغيرة والمتوسطة، المتاجر الإلكترونية، ورش صيانة السيارات، الشركات الناشئة، ومرافق الضيافة، بالإضافة إلى القطاع الحكومي.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg transform transition-all hover:shadow-xl">
-              <h3 className="text-xl font-semibold text-sky-600 mb-3 flex items-center"><span className="text-2xl mr-2 ml-2">🏆</span>الميزة التنافسية (للاعبين محتملين)</h3>
+              <h3 className="text-xl font-semibold text-sky-600 mb-3 flex items-center"><span className="text-2xl mr-2 ml-2">🏆</span>الميزة التنافسية </h3>
               <ul className="list-disc list-inside space-y-1 text-sm text-slate-600">
                 <li>أسعار تنافسية</li>
                 <li>حلول متخصصة في قطاعات محددة</li>
@@ -283,15 +283,15 @@ const SaudiSoftwareMarket = () => {
                         <tbody>
                           <tr className="hover:bg-slate-50">
                             <td className="py-2 px-4 border-b text-slate-600">اشتراك أساسي</td>
-                            <td className="py-2 px-4 border-b text-slate-600">299 ريال/شهرياً</td>
+                            <td className="py-2 px-4 border-b text-slate-600">150 ريال/شهرياً</td>
                             <td className="py-2 px-4 border-b text-slate-600">99 ريال/شهرياً (متقدمة)</td>
                             <td className="py-2 px-4 border-b text-slate-600">99 ريال/شهرياً (Lite)</td>
                           </tr>
                           <tr className="hover:bg-slate-50">
                             <td className="py-2 px-4 border-b text-slate-600">اشتراك متقدم</td>
-                            <td className="py-2 px-4 border-b text-slate-600">999 ريال/شهرياً</td>
-                            <td className="py-2 px-4 border-b text-slate-600">299 ريال/شهرياً (احترافية)</td>
-                            <td className="py-2 px-4 border-b text-slate-600">399 ريال/شهرياً (Growth)</td>
+                            <td className="py-2 px-4 border-b text-slate-600">400 ريال/شهرياً</td>
+                            <td className="py-2 px-4 border-b text-slate-600">650 ريال/شهرياً (احترافية)</td>
+                            <td className="py-2 px-4 border-b text-slate-600">333 ريال/شهرياً (Growth)</td>
                           </tr>
                         </tbody>
                       </table>
@@ -337,7 +337,7 @@ const SaudiSoftwareMarket = () => {
 
         {/* Growth Projections */}
         <section id="growth-projections" className="py-12 scroll-mt-20">
-          <h2 className="text-3xl font-bold text-center mb-8 text-sky-700"> prognozy wzrostu i perspektywy </h2>
+
           <p className="text-center text-lg text-slate-600 mb-8 max-w-3xl mx-auto">
             توقعات واعدة لنمو سوق البرمجيات بشكل عام، مدفوعة بالاستثمارات المستمرة والتحول الرقمي المتسارع.
           </p>
@@ -408,10 +408,7 @@ const SaudiSoftwareMarket = () => {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-slate-800 text-slate-300 text-center p-6 mt-12">
-        <p>&copy; 2024 نظرة تفاعلية على سوق البرمجيات السعودي. جميع الحقوق محفوظة (تصميم توضيحي).</p>
-      </footer>
+
     </div>
   );
 };
