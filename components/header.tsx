@@ -1,8 +1,8 @@
 import {
-  Code,
   Crown,
   User,
 } from 'lucide-react';
+import Image from 'next/image';
 
 import StatCard from './stat-card';
 
@@ -40,6 +40,28 @@ export default function Header() {
             </div>
           </div>
 
+
+
+          <div className=" flex-col bg-white/15 backdrop-blur-sm border border-white/20 rounded-xl p-4 flex items-center gap-3 min-w-fit">
+            <div className='relative w-24 h-28'>
+              <Image
+                src={"logo.webp"}
+                alt={"dreattoapp"}
+                fill
+                priority
+              />
+            </div>
+
+            <p className="text-lg ">
+              Where Dream Take Off
+            </p>
+
+
+          </div>
+
+
+
+
           {/* Provider Info */}
           <div className="bg-white/15 backdrop-blur-sm border border-white/20 rounded-xl p-4 flex items-center gap-3 min-w-fit">
             <div className="bg-gradient-to-br from-green-400 to-blue-500 w-12 h-12 rounded-xl flex items-center justify-center shadow-lg">
@@ -57,11 +79,6 @@ export default function Header() {
 
         {/* Main Title Section */}
         <div className="text-center mb-6">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-xl">
-              <Code className="w-8 h-8 text-blue-700" />
-            </div>
-          </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
             WWW.DREAMTO.APP
           </h2>
