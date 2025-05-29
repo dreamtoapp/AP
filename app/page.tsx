@@ -1,14 +1,18 @@
 "use client"
 
-import { useState } from "react"
-import Header from "@/components/header"
-import Navigation from "@/components/navigation"
-import OverviewSection from "@/components/sections/overview-section"
-import FinancialSection from "@/components/sections/financial-section"
-import MarketSection from "@/components/sections/market-section"
-import PlanSection from "@/components/sections/plan-section"
-import InvestmentSection from "@/components/sections/investment-section"
-import Footer from "@/components/footer"
+import { useState } from 'react';
+
+import Footer from '@/components/footer';
+import Header from '@/components/header';
+import Navigation from '@/components/navigation';
+import DevelopmentTimeline from '@/components/sections/Applife';
+import FinancialSection from '@/components/sections/financial-section';
+import InvestmentSection from '@/components/sections/investment-section';
+import JobRolesDashboard from '@/components/sections/JobsDefinietion';
+import MarketSection from '@/components/sections/market-section';
+import Other from '@/components/sections/Other';
+import OverviewSection from '@/components/sections/overview-section';
+import PlanSection from '@/components/sections/plan-section';
 
 export default function BusinessPlanPage() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -25,6 +29,12 @@ export default function BusinessPlanPage() {
         return <PlanSection />
       case "investment":
         return <InvestmentSection />
+      case "other":
+        return <Other />
+      case "JObs":
+        return <JobRolesDashboard />
+      case "Applife":
+        return <DevelopmentTimeline />
       default:
         return <OverviewSection />
     }
