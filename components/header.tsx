@@ -8,10 +8,10 @@ import StatCard from './stat-card';
 
 export default function Header() {
   const stats = [
-    { value: "51.32%", label: "هامش الربح المتوقع" },
-    { value: "2.69 مليون+", label: "إيرادات متوقعة سنوياً" },
-    { value: "80%", label: "نمو متوقع في السنة الثانية" },
-    { value: "172.8%", label: "عائد سنوي للمستثمر" },
+    { value: "92.15%", label: "هامش الربح المتوقع" },
+    { value: "11,527,000 SR مليون+", label: "إيرادات متوقعة سنوياً" },
+    { value: "60%", label: "نمو متوقع في السنة الثانية" },
+    { value: "384.23%", label: "عائد سنوي للمستثمر" },
   ]
 
   return (
