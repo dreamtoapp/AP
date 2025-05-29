@@ -21,7 +21,7 @@ export default function InvestmentSection() {
         <div className="space-y-3 text-sm">
           <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
             <p className="font-bold text-blue-800 mb-2">المبلغ المطلوب:</p>
-            <p className="text-2xl font-bold text-blue-600">800,000 ريال سعودي</p>
+            <p className="text-2xl font-bold text-blue-600">1,088,000 ريال سعودي</p>
           </div>
           <div className="space-y-2">
             <p>
