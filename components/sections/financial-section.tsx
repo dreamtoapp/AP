@@ -111,6 +111,7 @@ export default function FinancialSection() {
   // Add a check for positive net profit to avoid division by zero or negative results
   const paybackPeriod = netProfit > 0 ? totalCapitalRequired / netProfit : Infinity; // In years
 
+
   const metrics = [
     {
       title: 'رأس المال المطلوب',
@@ -128,7 +129,7 @@ export default function FinancialSection() {
     {
       title: 'فترة استرداد رأس المال',
       value: paybackPeriod === Infinity ? 'أكثر من سنة' : `${paybackPeriod.toFixed(2)} سنة`,
-      description: 'مع توقع نمو الأرباح بنسبة 80% في السنة الثانية',
+      description: "مع توقع نمو في الأرباح بنسبة 60% في السنة الثانية، بعد إتمام فترة التأسيس الأولية.",
       icon: Calendar,
     },
   ];
