@@ -64,7 +64,7 @@ const contributions = [
     description: "SaaS لتجارة إلكترونية احترافية",
     tech: "Next.js, React, Prisma, MongoDB",
     value: 150000,
-    link: "https://ap.dreamto.app/ecommerce",
+    link: "https://www-ecommerce-com.vercel.app",
     highlights: [
       {
         title: "إدارة المتاجر",
@@ -116,7 +116,7 @@ const contributions = [
       "منصة رقمية مبتكرة تهدف إلى ربط أصحاب السيارات بورش صيانة موثوقة ومعتمدة بناءً على تقييمات العملاء، مع تقديم حلول تمويل مرنة لصيانة المركبات، وخدمات إضافية مثل السحب، الطوارئ، والتأمين.",
     tech: "React, Node.js, MongoDB",
     value: 200000,
-    link: "https://ap.dreamto.app/car-doctor",
+    link: "https://dc.dreamto.app/",
     highlights: [
       {
         title: "مشكلة حقيقية",
@@ -163,7 +163,7 @@ const contributions = [
       "نظام متكامل لإدارة ورش صيانة السيارات، يغطّي الدورة الكاملة من لحظة دخول السيارة وحتى تسليمها، مع إدارة فنية، إدارية، ومالية دقيقة، بالإضافة إلى ملف شخصي للعميل لمتابعة مركبته وخدمات الورشة.",
     tech: "Next.js, Node.js, MongoDB",
     value: 80000,
-    link: "https://ap.dreamto.app/workshop360",
+    link: "https://aws.dreamto.app/",
     highlights: [
       {
         title: "إدارة كاملة لدورة الصيانة",
