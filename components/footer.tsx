@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
               <p className="text-gray-700 text-sm leading-relaxed">
                 نتقدم بجزيل الشكر والامتنان للأستاذ{" "}
-                <span className="font-bold text-orange-700">سعد محمد الشهري (أبو سلطان)</span>
+                <span className="font-bold text-orange-700"> (أبو سلطان)</span>
                 على ثقته الغالية واهتمامه بهذه الفرصة الاستثمارية الواعدة
               </p>
             </div>
@@ -60,7 +60,7 @@ export default function Footer() {
               مُعد بواسطة: المهندس خالد علي نديش
             </div>
             <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
-              مُقدم إلى: الأستاذ سعد محمد الشهري
+              مُقدم إلى: الأستاذ (ابو سلطان)
             </div>
           </div>
         </div>

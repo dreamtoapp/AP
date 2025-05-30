@@ -35,8 +35,7 @@ export default function Header() {
 
               </p>
 
-              <p className="font-bold text-lg">سعد محمد الشهري</p>
-              <p className="text-sm opacity-90">(أبو سلطان)</p>
+              <p className="text-sm opacity-90 font-bold">(أبو سلطان)</p>
             </div>
           </div>
 

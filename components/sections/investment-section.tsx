@@ -130,7 +130,7 @@ export default function InvestmentSection() {
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-800">رسالة خاصة للمستثمر المحترم</h3>
-            <p className="text-orange-700 font-semibold">الأستاذ سعد محمد الشهري (أبو سلطان)</p>
+            <p className="text-orange-700 font-semibold">الأستاذ (أبو سلطان)</p>
           </div>
         </div>
         <div className="bg-white rounded-lg p-4 border border-yellow-300">
