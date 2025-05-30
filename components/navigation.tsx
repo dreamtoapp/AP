@@ -26,6 +26,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
     { id: "other", label: "مصطلحات وتعريفات", icon: BookOpenText },
     { id: "JObs", label: "المهام الوظيفية", icon: Users },
     { id: "Applife", label: "مراحل التطوير", icon: Workflow },
+    { id: "Myassits", label: "الاصول", icon: Workflow },
   ];
 
   return (

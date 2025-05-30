@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import SourceCodeContribution from '@/components/Myassits';
 import Navigation from '@/components/navigation';
 import DevelopmentTimeline from '@/components/sections/Applife';
 import FinancialSection from '@/components/sections/financial-section';
@@ -35,6 +36,8 @@ export default function BusinessPlanPage() {
         return <JobRolesDashboard />
       case "Applife":
         return <DevelopmentTimeline />
+      case "Myassits":
+        return <SourceCodeContribution />
       default:
         return <OverviewSection />
     }
