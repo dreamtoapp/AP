@@ -16,6 +16,19 @@ import OverviewSection from '@/components/sections/overview-section';
 import PlanSection from '@/components/sections/plan-section';
 
 export default function BusinessPlanPage() {
+  const [password, setPassword] = useState("");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const correctPassword = "khalidnadish"; // Change this to your desired password
+
+  const handlePasswordSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (password === correctPassword) {
+      setIsAuthenticated(true);
+    } else {
+      alert("Incorrect password. Please try again.");
+      setPassword("");
+    }
+  }
   const [activeTab, setActiveTab] = useState("overview")
 
   const renderActiveSection = () => {
@@ -43,6 +56,27 @@ export default function BusinessPlanPage() {
     }
   }
 
+  if (!isAuthenticated) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-50 p-5" dir="rtl">
+        <form onSubmit={handlePasswordSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-sm w-full">
+          <h2 className="mb-4 text-xl font-bold text-center">Protected Page</h2>
+          <input
+            type="password"
+            placeholder="Enter password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            className="w-full px-3 py-2 mb-4 border rounded"
+            required
+          />
+          <button type="submit" className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Submit
+          </button>
+        </form>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-50 p-5" dir="rtl">
       <div className="max-w-6xl mx-auto">
@@ -52,5 +86,5 @@ export default function BusinessPlanPage() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }
